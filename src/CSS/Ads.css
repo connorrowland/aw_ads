@@ -202,7 +202,10 @@
         margin: 0 15px; } }
 
 .ads--stacked-col .ads--individual-ad:first-child {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
+  @media screen and (max-width: 768px) {
+    .ads--stacked-col .ads--individual-ad:first-child {
+      margin-bottom: 20px; } }
 
 .ads--individual-ad {
   width: 100%;
