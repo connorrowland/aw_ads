@@ -169,6 +169,13 @@ header{
   -o-transition: box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  @media (max-width: 768px) and (min-width: 575px){
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  @media (max-width: 575px) {
+    max-width: 100%;
+  }
   .nav-grid--container{
     display: -webkit-box;
     display: -ms-flexbox;
