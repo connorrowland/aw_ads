@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'GuillonRegular';
+  src:    url('EOT/Guillon-Regular.eot');
+  src:    url('EOT/Guillon-Regular.eot?#iefix') format('embedded-opentype'),
+          url('WOFF/Guillon-Regular.woff') format('woff'),
+          url('WOFF2/Guillon-Regular.woff2') format('woff2'),
+          url('TTF/Guillon-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
